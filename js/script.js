@@ -12,8 +12,8 @@ carData.forEach(function(carObject) {
   var options = {
     radius: 3,
     stroke: false,
-    fillColor: 'red',
-    fillOpacity: .4,
+    fillColor:'#ff0026',
+    fillOpacity: .03,
 
   }
   L.circleMarker(latlng, options).addTo(map)
